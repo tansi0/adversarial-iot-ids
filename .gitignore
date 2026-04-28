@@ -1,0 +1,22 @@
+# Trained model weights
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Raw dataset files
+*.csv
+*.zip
+*.parquet
+*.feather
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+
+# System
+.DS_Store
+Thumbs.db
