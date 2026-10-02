@@ -1,7 +1,5 @@
 # adversarial-iot-ids
 
-**Can a deep learning model detect cyberattacks in Industrial IoT networks; and what happens when an attacker deliberately tries to fool it?**
-
 This project builds and stress-tests an intrusion detection system for IIoT environments. It does not stop at accuracy numbers on clean data. It attacks the model using adversarial perturbations, measures how badly performance degrades, and then builds a secondary defence layer that tries to catch attacks the classifier itself missed  using the model's own explanations against the attacker.
 
 ---
