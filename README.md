@@ -50,7 +50,7 @@ The dataset is severely imbalanced. Standard SMOTE generates synthetic minority-
 
 **Why did Random Forest beat the hybrid on clean data?**
 
-Random Forest: 97.79% accuracy. Hybrid: 93.54%. This is not a failure, it is an expected and documented finding. Edge-IIoTset is a feature-engineered tabular dataset. Tree-based models are consistently superior on tabular data because they are robust to uninformative features and can learn arbitrary decision boundaries without the regularisation constraints neural networks require. This aligns with Grinsztajn, Oyallon and Varoquaux (2022), who benchmarked 45 datasets and found tree-based models routinely outperform deep learning on tabular data. The hybrid model's case rests on adversarial resilience and explainability — neither of which Random Forest supports.
+Random Forest: 97.79% accuracy. Hybrid: 93.54%. This is not a failure, it is an expected and documented finding. Edge-IIoTset is a feature-engineered tabular dataset. Tree-based models are consistently superior on tabular data because they are robust to uninformative features and can learn arbitrary decision boundaries without the regularisation constraints neural networks require. 
 
 **What is SHAP attribution fingerprinting?**
 
