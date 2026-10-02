@@ -1,4 +1,4 @@
-# adversarial-iot-ids
+# Advanced Transformer-Based Hybrid Architectures for Adversarial-Resilient Intrusion Detection in Industrial IoT Ecosystems
 
 This project builds and stress-tests an intrusion detection system for IIoT environments. It does not stop at accuracy numbers on clean data. It attacks the model using adversarial perturbations, measures how badly performance degrades, and then builds a secondary defence layer that tries to catch attacks the classifier itself missed  using the model's own explanations against the attacker.
 
